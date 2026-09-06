@@ -29,7 +29,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
   @apply font-montserrat w-screen h-screen;
 }
 
