@@ -26,7 +26,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: ;
+  background-position: center;
   @apply font-montserrat w-screen h-screen;
 }
 
@@ -188,8 +188,12 @@ body {
   inset: -8px;
   pointer-events: none;
   background:
-    radial-gradient(circle at 50% 20%, rgba(255,255,255,0.06), transparent 55%),
-    radial-gradient(circle at 50% 120%, rgba(0,0,0,0.7), transparent 55%);
+    radial-gradient(
+      circle at 50% 20%,
+      rgba(255, 255, 255, 0.06),
+      transparent 55%
+    ),
+    radial-gradient(circle at 50% 120%, rgba(0, 0, 0, 0.7), transparent 55%);
   mix-blend-mode: multiply;
   opacity: 0;
   transition: opacity 200ms ease-out;
